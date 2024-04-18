@@ -1,0 +1,27 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Backend for siteInsight using Node, Mongo and Express",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Farooq Abdulla",
+  "license": "ISC",
+  "dependencies": {
+    "@langchain/community": "^0.0.44",
+    "@langchain/openai": "^0.0.26",
+    "@upstash/redis": "^1.29.0",
+    "bcrypt": "^5.1.1",
+    "cheerio": "^1.0.0-rc.12",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "langchain": "^0.1.31",
+    "mongoose": "^8.2.4",
+    "nodemon": "^3.1.0",
+    "zod": "^3.22.4"
+  }
+}
